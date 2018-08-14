@@ -1,0 +1,78 @@
+body{
+	font-family: "Corbel", "Calibri";
+}
+#titulo{
+	background: black;
+	color: white;
+	padding: 24px;
+	text-align: center;
+}
+h1{
+	letter-spacing: 4px;
+}
+#pagina{
+	
+}
+#conteudo{
+	background: #dddddd;
+	padding: 24px;
+	margin-top: 32px;
+	margin-bottom: 32px;
+	overflow: auto;
+}
+#codigo{
+	display: inline-block;
+	margin-top: 8px;
+	margin: 16px;
+	vertical-align: text-top;
+}
+#texto{
+	display: inline-block;
+	margin-top: 8px;
+	margin: 16px;
+	max-width: 65%;
+	vertical-align: text-top;
+	font-size: 18px;
+}
+img{
+	display: inline-block;
+	margin: 8px;
+	vertical-align: text-top;
+}
+#gusev{
+	font-size: 64px;
+}
+button{
+	border: none;
+	padding: 10px;
+	margin-left: 16px;
+	margin-right: 16px;
+	background: gray;
+	color: white;
+	font-weight: bold;
+}
+button:hover{
+	background: #222222;
+}
+button:active{
+	background: #404040;
+}
+pre{
+	border: 1px solid black;
+	padding: 10px;
+	background: white;
+	color: green;
+}
+.fleft{
+	float: left;
+}
+.fright{
+	float: right;
+}
+p{
+	max-width: 90%;
+}
+
+
+
+

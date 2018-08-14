@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="file.css">
+</head>
+<body>
+	<div id="titulo">		<!-- Título -->
+		<text id="gusev">Gusev</text>
+		<h4>Um rover autônomo analisador de ambiente</h4>
+		<button onclick="location= 'index.html'">O robô</button>
+		<button onclick="location= 'montagem.html'">Montagem</button>
+		<button onclick="location= 'codigo.html'">Código-fonte</button>
+	</div>
+	<div id="pagina">		<!-- Página -->
+		<div id="conteudo">		<!-- Conteúdo -->
+			<div id="texto">
+				<h2>Estrutura</h2><br>
+				A estrutura mecânica foi montada utilizando palitos de madeira (picolé e churrasco) 
+				e uma placa de papelão que acomoda a eletrônica do rover. As rodas passivas foram 
+				confeccionadas utilizando isopor, fita isolante, palitos de madeira e tiras de tubo de caneta. 
+			</div>
+			<img class="fright" src="img/gusev-palitos1.jpg" width="340" height="260">
+		</div>
+		<div id="conteudo">		<!-- Conteúdo -->
+			<img class="fleft" src="img/esquema-fonte.png">
+			<div id="texto">
+				<h2>Faróis</h2><br>
+				A fonte de alimentação do robô é composta pelo arranjo de pilhas (6V) e interruptor. 
+				Foram acoplados dois LEDs de alto brilho branco como faróis dianteiros, cuja intensidade 
+				do brilho é inversamente proporcional à luminosidade do ambiente. Para isso foi utilizado 
+				um circuito de controle a transistor bipolar com um LDR.
+			</div>
+			
+		</div>
+		<div id="conteudo">		<!-- Conteúdo -->
+			<div id="texto">
+				<h2>Sensores e Atuadores</h2><br>
+				Foi utilizado um par de rodas motorizadas, que contêm um motor DC e caixa de redução. 
+				O analisador de ambiente é composto de um servo-motor de 180 graus modelo Tower Pro 9g 
+				e um detector de ultrassom modelo HC-SR04. O detector de ultrassom foi acoplado ao servo 
+				através de uma estrutura de madeira, e foi colocado um LED de alto brilho vermelho na 
+				direção do detector, para indicar sua posição. As duas rodas motorizadas são controladas 
+				por um circuito ponte H modelo L298N, alimentado com +5V. O módulo ponte H é controlado pelo Arduino.
+			</div>
+			<img class="fright" src="img/sensores1.png">
+		</div>
+		<div id="conteudo" style="text-align: center;">		<!-- Conteúdo -->
+			<h2>Esquemático completo</h2>
+			<img src="img/esquema-arduino.png">
+		</div>
+		<div id="conteudo" style="text-align: center;">		<!-- Conteúdo -->
+			<h2>Orçamento</h2>
+			<img src="img/orcamento.png">
+		</div>
+	</div>
+</body>
+</html>

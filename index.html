@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="file.css">
+</head>
+<body>
+	<div id="titulo">		<!-- Título -->
+		<text id="gusev">Gusev</text>
+		<h4>Um rover autônomo analisador de ambiente</h4>
+		<button onclick="location= 'index.html'">O robô</button>
+		<button onclick="location= 'montagem.html'">Montagem</button>
+		<button onclick="location= 'codigo.html'">Código-fonte</button>
+	</div>
+	<div id="pagina">		<!-- Página -->
+		<div id="conteudo">		<!-- Conteúdo -->
+			<div id="texto">
+				<h2>Analisando ambiente e... andando!</h2><br>
+				O <text style="text-decoration: underline;">Alexander Slavoj Gusev</text> é um rover autônomo que faz detecção de objetos por ultrassom. 
+				O funcionamento básico do rover consiste em fazer uma varredura do ambiente e andar na direção
+				com menos obstáculos. O rover é basicamente composto de: uma estrutura mecânica, 2 rodas passivas,
+				2 rodas motorizadas, fonte, Arduino, detector de objetos e controlador de motor, além de acessórios
+				como LEDs e fotoresistores.
+			</div>
+			<img class="fright" src="img/gusev-1.png" width="340" height="260">
+		</div>
+		<video width="320" height="240" controls>		<!-- Seção -->
+			<source src="video/video-gusev.mp4" type="video/mp4">
+		</video>
+		<div id="conteudo">		<!-- Conteúdo -->
+			<img class="fleft" src="img/gusev-feira.jpg">
+			<div id="texto">
+				<h2>Servos, sensores e... palitos de picolé!</h2><br>
+				Foi utilizado um par de rodas motorizadas, que contêm um motor DC e caixa de redução. 
+				O analisador de ambiente é composto de um servo-motor de 180 graus modelo Tower Pro 9g e
+				um detector de ultrassom modelo HC-SR04. O detector de ultrassom foi acoplado ao servo através
+				de uma estrutura de madeira, e foi colocado um LED de alto brilho vermelho na direção do detector,
+				para indicar sua posição.
+				O Gusev foi apresentado na feira de cursos da Universidade Tecnológica Federal do Paraná, a #Tecnológica.
+			</div>
+		</div>
+	</div>
+</body>
+</html>
